@@ -1,15 +1,43 @@
-h1 {
-    background-color: hsl(32,64.4%,39.7%);
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
-body {
-    color: hsl(0,0%,70%);
-    font-size: large;
-    background-color: hsl(175, 50.7%, 26.8%); 
+body{
+    min-height: 100vh;
+    background: url(idyllic-summer-landscape-clear-mountain-lake-alps-45054687.webp) no-repeat center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
 }
-#list {
-    text-align: center;
+nav {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
 }
-.image_info {
-    text-align: center;
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+nav li{
+    height: 50px;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+    text-decoration:none;
+    color: black;
+    height: 100%;
+    padding: 0px 30px;
+}
+nav a:hover{
+    background-color: #8b8b8b;
+}
+
+h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
 }
