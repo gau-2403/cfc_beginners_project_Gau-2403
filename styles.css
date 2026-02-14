@@ -116,6 +116,10 @@ h1{
     left: 10vw;
     width: auto;
 }
+
+.header h1:hover{
+    font-size: 150px
+}
 .content2 h1{
     position: absolute;
     left: 10vw;
